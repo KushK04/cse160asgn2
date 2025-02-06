@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Asg 2</title>
+</head>
+ 
+<body onload="main()">
+  <canvas id="webgl" width="400" height="400">
+    Please use the browser supporting "canvas".
+  </canvas>
+  <br><br>
+
+  <p id="perf">___</p>
+
+  <p id="note">Click on the canvas to make Charmander look somewhere else (change camera)!
+  </p>
+
+  <p>Shift Click for a surprise!</p>
+  
+
+  Wave Left Animation: 
+
+  <input type="button" id="waveLeftOn" value="On">
+
+  <input type="button" id="waveLeftOff" value="Off">
+
+  Wave Right Animation: 
+
+  <input type="button" id="waveRightOn" value="On">
+
+  <input type="button" id="waveRightOff" value="Off">
+
+  Nod Animation: 
+
+  <input type="button" id="nodOn" value="On">
+
+  <input type="button" id="nodOff" value="Off">
+
+  Walk Animation: 
+
+  <input type="button" id="walkOn" value="On">
+
+  <input type="button" id="walkOff" value="Off">
+
+  Wag Animation: 
+
+  <input type="button" id="wagOn" value="On">
+
+  <input type="button" id="wagOff" value="Off">
+
+
+  <br><br>
+
+  Head Slider <input type = "range" min="-15" max="10" value="0" class = "slider" id = "headSlider">  
+
+  Left Arm Slider <input type = "range" min="-90" max="0" value="0" class = "slider" id = "leftArmSlider">  
+
+  Right Arm Slider <input type = "range" min="-90" max="0" value="0" class = "slider" id = "rightArmSlider">  
+
+  <br><br>
+
+  Tail 1 Slider <input type = "range" min="-15" max="15" value="0" class = "slider" id = "tail1Slider">  
+
+  Tail 2 Slider <input type = "range" min="-15" max="15" value="0" class = "slider" id = "tail2Slider">  
+
+  Tail 3 Slider <input type = "range" min="-15" max="15" value="0" class = "slider" id = "tail3Slider">  
+
+  <br><br>
+
+  Camera X Angle <input type = "range" min="-180" max="180" value="0" class = "slider" id = "angleSlider">   
+
+  Camera Y Angle <input type = "range" min="-90" max="90" value="0" class = "slider" id = "angle2Slider">  
+ 
+  <script src="../lib/webgl-utils.js"></script>
+  <script src="../lib/webgl-debug.js"></script>
+  <script src="../lib/cuon-utils.js"></script>
+  <script src="../lib/cuon-matrix-cse160.js"></script>
+  <script src="BlockyAnimal.js"></script>
+  <script src="Point.js"></script>
+  <script src="Circle.js"></script>
+  <script src="Triangle.js"></script>
+  <script src="Star.js"></script>
+  <script src = "Cube.js"></script>
+  <script src = "Sphere.js"></script>
+
+</body>
+</html> 
